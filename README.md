@@ -135,7 +135,7 @@ Example input:
   
 
  
- ## Bonus Features<br>
+ ## Bonus Features
  
 ##### Error Handling: Handle invalid rules or missing operators/comparisons.
 ##### Validation: Ensure attributes used in the rules are part of a predefined catalog.
@@ -144,14 +144,14 @@ Example input:
 
                        
 
-## Screenshorts<br>
+## Screenshorts
 
 
-#### License<br>
+#### License
 This project is licensed under the MIT License. See the LICENSE file for details.<br>
 
 
-#### Author<br>
+#### Author
 Harshvardhan
 
 
