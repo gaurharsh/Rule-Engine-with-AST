@@ -108,15 +108,15 @@ Example input:
  #### rule-engine-app/<br>
 │
 ├── rule_engine_app/           # Django project folder
-│   ├── __init__.py
-│   ├── asgi.py
-│   ├── settings.py          # Project settings
-│   ├── urls.py            # Project-level URLs
-│   ├── wsgi.py
-├── rule_engine/            # Django app folder for rule engine
-│   ├── migrations/             # Database migrations
-│   ├── templates/             # HTML templates for the front-end
-│   ├── static/               # Static files (CSS, JavaScript)
+│   ├── __init__.py<br>
+│   ├── asgi.py<br>
+│   ├── settings.py<br>        
+│   ├── urls.py<br>           
+│   ├── wsgi.py<br>
+├── rule_engine/ <br>          
+│   ├── migrations/             
+│   ├── templates/             
+│   ├── static/             
 │   ├── __init__.py
 │   ├── admin.py
 │   ├── apps.py
