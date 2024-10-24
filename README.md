@@ -50,12 +50,12 @@ Rule Engine with AST  is a 3-tier rule engine that determines user eligibility b
 
 Example input:
         ` ` ` JSON 
-                            {
-                            "age": 35,
-                            "department": "Sales",
-                            "salary": 60000,
-                            "experience": 3
-                           }
+                   {
+                      "age": 35,
+                      "department": "Sales",
+                      "salary": 60000,
+                      "experience": 3
+                  }
                            
        ` ` `
 
@@ -144,7 +144,7 @@ Example input:
 
                        
 
-
+## Screenshorts<br>
 
 
 #### License<br>
@@ -152,7 +152,7 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 
 #### Author<br>
-Harshvardhan<br>
+Harshvardhan
 
 
 
