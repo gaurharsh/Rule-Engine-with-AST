@@ -49,13 +49,14 @@ Rule Engine with AST  is a 3-tier rule engine that determines user eligibility b
 ######     Takes a JSON of the combined rule's AST and a dictionary of user data, evaluating if the user meets the conditions of the rule.
 
 Example input:
-        ` ` `     JSON 
-                        {
-                          "age": 35,
-                          "department": "Sales",
-                          "salary": 60000,
-                         "experience": 3
-                         }
+        ` ` ` JSON 
+                            {
+                            "age": 35,
+                            "department": "Sales",
+                            "salary": 60000,
+                            "experience": 3
+                           }
+                           
        ` ` `
 
 ## Test Cases
@@ -83,23 +84,23 @@ Example input:
                                .\env\Scripts\activate
                             
                    ` ` `
-#### Step 3: Install Dependencies<br>:
+#### Step 3: Install Dependencies<br>
                     ` ` `console
                                pip install -r requirements.txt
 
                     ` ` `
-#### Step 4: Set Up the Database<br>:
+#### Step 4: Set Up the Database<br>
                     ` ` `console
                                python manage.py migrate
 
                     ` ` `
-#### Step 5: Start the Django Development Server<br>:
+#### Step 5: Start the Django Development Server<br>
                     ` ` `console
                                 python manage.py runserver
 
                     ` ` `
 
-#### Step 6: Access the Front-End<br>:  Open your browser and visit:  http://127.0.0.1:8000<br>
+#### Step 6: Access the Front-End<br>  Open your browser and visit:  http://127.0.0.1:8000<br>
 
 
  ### Project Structure:
