@@ -115,17 +115,17 @@ Example input:
 │   ├── wsgi.py<br>
 ├── rule_engine/ <br>          
 │   ├── migrations/<br>             
-│   ├── templates/<br>             
+│   ├── templates            
 │   ├── static/             
-│   ├── __init__.py
+│   ├── __init__.py<br>
 │   ├── admin.py
 │   ├── apps.py
 │   ├── models.py               # Models for rules and attributes
 │   ├── views.py               # API and UI logic
 │   ├── urls.py              # App-level URLs
-│   ├── forms.py<br>               # UI forms for rule entry
+│   ├── forms.py               # UI forms for rule entry
 
-├── manage.py<br>                  # Django management script
+├── manage.py<br>               # Django management script
 ├── requirements.txt         # Project dependencies
 └── README.md                  # Project description
 
