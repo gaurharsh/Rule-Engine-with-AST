@@ -107,30 +107,30 @@ Example input:
 
  #### rule-engine-app/<br>
 │
-├── rule_engine_app/            # Django project folder
+├── rule_engine_app/<br>            # Django project folder
 │   ├── __init__.py<br>
-│   ├── asgi.py
+│   ├── asgi.py<br>
 │   ├── settings.py<br>          # Project settings
-│   ├── urls.py                 # Project-level URLs
-│   ├── wsgi.py
+│   ├── urls.py<br>            # Project-level URLs
+│   ├── wsgi.py<br>
 
 <br>
 
-├── rule_engine/  <br>              # Django app folder for rule engine
-│   ├── migrations/             # Database migrations
-│   ├── templates/              # HTML templates for the front-end
-│   ├── static/                 # Static files (CSS, JavaScript)
-│   ├── __init__.py
-│   ├── admin.py
-│   ├── apps.py
-│   ├── models.py               # Models for rules and attributes
-│   ├── views.py                # API and UI logic
-│   ├── urls.py                 # App-level URLs
+├── rule_engine/ <br>              # Django app folder for rule engine
+│   ├── migrations/<br>             # Database migrations
+│   ├── templates/<br>              # HTML templates for the front-end
+│   ├── static/<br>                # Static files (CSS, JavaScript)
+│   ├── __init__.py<br>
+│   ├── admin.py<br>
+│   ├── apps.py<br>
+│   ├── models.py<br>               # Models for rules and attributes
+│   ├── views.py<br>                # API and UI logic
+│   ├── urls.py<br>                # App-level URLs
 │   ├── forms.py<br>                # UI forms for rule entry
 │
-├── manage.py                   # Django management script
-├── requirements.txt            # Project dependencies
-└── README.md                   # Project description
+├── manage.py<br>                  # Django management script
+├── requirements.txt<br>            # Project dependencies
+└── README.md<br>                   # Project description
 
   
 
