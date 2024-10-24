@@ -68,34 +68,34 @@ Example input:
 
 ## Setup Instructions
 #### Step 1: Clone the repository<br>
-                  ` ` ` 
-                          git clone <repository-url>
+                  ` ` ` cmd
+                             git clone https://github.com/gaurharsh/Rule-Engine-with-AST.git
 
                   ` ` `
 #### Step 2: Set Up a Virtual Environment<br>
-                   ` ` ` 
-                        cd <project-directory>
-                        python -m venv env
+                   ` ` ` console
+                               cd <project-directory>
+                               python -m venv env
 
                    ` ` ` 
 
-                   ` ` ` 
-                            .\env\Scripts\activate
+                   ` ` `console 
+                               .\env\Scripts\activate
                             
                    ` ` `
 #### Step 3: Install Dependencies<br>:
-                    ` ` `
-                    pip install -r requirements.txt
+                    ` ` `console
+                               pip install -r requirements.txt
 
                     ` ` `
 #### Step 4: Set Up the Database<br>:
-                    ` ` `
-                    python manage.py migrate
+                    ` ` `console
+                               python manage.py migrate
 
                     ` ` `
 #### Step 5: Start the Django Development Server<br>:
-                    ` ` `
-                    python manage.py runserver
+                    ` ` `console
+                                python manage.py runserver
 
                     ` ` `
 
@@ -112,8 +112,9 @@ Example input:
 │   ├── settings.py<br>          # Project settings
 │   ├── urls.py                 # Project-level URLs
 │   ├── wsgi.py
-│
+
 <br>
+
 ├── rule_engine/                # Django app folder for rule engine
 │   ├── migrations/             # Database migrations
 │   ├── templates/              # HTML templates for the front-end
