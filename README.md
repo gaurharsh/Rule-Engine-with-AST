@@ -3,9 +3,9 @@ Rule Engine with AST  is a 3-tier rule engine that determines user eligibility b
 
 ## Key features include:
 
-####Rule Creation: Build rules from conditional statements using an AST structure.
-####Rule Combination: Combine multiple rules efficiently into a single AST, minimizing redundancy.
-####Rule Evaluation: Test user data against the rules to determine eligibility.
-####Error Handling: Manage invalid rule inputs and data formats.
-####Rule Modification: Update existing rules by changing conditions or combining new rules.
-####Validation: Ensure that attributes in the rules are part of a valid catalog.
+#### Rule Creation: Build rules from conditional statements using an AST structure.
+#### Rule Combination: Combine multiple rules efficiently into a single AST, minimizing redundancy.
+#### Rule Evaluation: Test user data against the rules to determine eligibility.
+#### Error Handling: Manage invalid rule inputs and data formats.
+#### Rule Modification: Update existing rules by changing conditions or combining new rules.
+#### Validation: Ensure that attributes in the rules are part of a valid catalog.
