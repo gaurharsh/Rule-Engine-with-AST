@@ -16,7 +16,7 @@ Rule Engine with AST  is a 3-tier rule engine that determines user eligibility b
 ##### Frontend: HTML/CSS for a simple user interface
 ##### Database: PostgreSQL (or SQLite for development) for storing rules and metadata
 ##### Data Storage: JSON for AST representation
-##### Web Server: Gunicorn (for deployment) or Django’s development server
+##### Web Server: Django’s development server
 
 ## Data Structure
 #### The AST is represented by a Node data structure with the following fields:
