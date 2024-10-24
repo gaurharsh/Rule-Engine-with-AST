@@ -135,7 +135,8 @@ Example input:
   
 
  
- ## Bonus Features
+ ## Bonus Features<br>
+ 
 ##### Error Handling: Handle invalid rules or missing operators/comparisons.
 ##### Validation: Ensure attributes used in the rules are part of a predefined catalog.
 ##### Rule Modification: Add functionality to modify existing rules by changing operators, operand values, or adding/removing sub-expressions.
@@ -145,10 +146,12 @@ Example input:
 
 
 
-License<br>
+
+#### License<br>
 This project is licensed under the MIT License. See the LICENSE file for details.<br>
 
-Author<br>
+
+#### Author<br>
 Harshvardhan<br>
 
 
