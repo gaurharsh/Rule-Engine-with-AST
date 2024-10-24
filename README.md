@@ -142,9 +142,15 @@ Example input:
 ##### Rule Modification: Add functionality to modify existing rules by changing operators, operand values, or adding/removing sub-expressions.
 ##### Advanced Conditions: Extend the system to support user-defined functions for more complex rules.    
 
-                       
+
+## Future Enhancements
+##### Add more robust error handling and validation features.
+##### Support combining a larger number of rules efficiently.
+##### Extend the front-end with a rule-building interface for non-technical users.                  
 
 ## Screenshorts
+
+
 
 
 #### License
@@ -161,7 +167,3 @@ Harshvardhan
 
 
 
-## Future Enhancements
-##### Add more robust error handling and validation features.
-##### Support combining a larger number of rules efficiently.
-##### Extend the front-end with a rule-building interface for non-technical users.
