@@ -49,13 +49,11 @@ Rule Engine with AST  is a 3-tier rule engine that determines user eligibility b
 ######     Takes a JSON of the combined rule's AST and a dictionary of user data, evaluating if the user meets the conditions of the rule.
 
 Example input:
-   ` ` `
-    
-{
-  "age": 35,
-  "department": "Sales",
-  "salary": 60000,
-  "experience": 3
-}
-
- ` ` `
+` ` `
+                {
+                    "age": 35,
+                    "department": "Sales",
+                    "salary": 60000,
+                  "experience": 3
+               }
+` ` `
