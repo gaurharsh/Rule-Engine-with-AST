@@ -116,7 +116,7 @@ Example input:
 
 <br>
 
-├── rule_engine/                # Django app folder for rule engine
+├── rule_engine/  <br>              # Django app folder for rule engine
 │   ├── migrations/             # Database migrations
 │   ├── templates/              # HTML templates for the front-end
 │   ├── static/                 # Static files (CSS, JavaScript)
@@ -126,7 +126,7 @@ Example input:
 │   ├── models.py               # Models for rules and attributes
 │   ├── views.py                # API and UI logic
 │   ├── urls.py                 # App-level URLs
-│   ├── forms.py                # UI forms for rule entry
+│   ├── forms.py<br>                # UI forms for rule entry
 │
 ├── manage.py                   # Django management script
 ├── requirements.txt            # Project dependencies
