@@ -57,3 +57,106 @@ Example input:
                          "experience": 3
                          }
        ` ` `
+
+## Test Cases
+##### Create Rule: Use create_rule to generate ASTs from example rules and verify their representation.
+##### Combine Rules: Combine rules using combine_rules and check if the logic is correctly reflected in the AST.
+##### Evaluate Rules: Test evaluate_rule with various user data inputs and rules to verify expected outcomes.
+##### Extend Rules: Explore combining more rules and testing them with different scenarios.
+
+
+
+## Setup Instructions
+#### Step 1: Clone the repository<br>
+                  ` ` ` 
+                          git clone <repository-url>
+
+                  ` ` `
+#### Step 2: Set Up a Virtual Environment<br>
+                   ` ` ` 
+                        cd <project-directory>
+                        python -m venv env
+
+                   ` ` ` 
+
+                   ` ` ` 
+                            .\env\Scripts\activate
+                            
+                   ` ` `
+#### Step 3: Install Dependencies<br>:
+                    ` ` `
+                    pip install -r requirements.txt
+
+                    ` ` `
+#### Step 4: Set Up the Database<br>:
+                    ` ` `
+                    python manage.py migrate
+
+                    ` ` `
+#### Step 5: Start the Django Development Server<br>:
+                    ` ` `
+                    python manage.py runserver
+
+                    ` ` `
+
+#### Step 6: Access the Front-End<br>:  Open your browser and visit:  http://127.0.0.1:8000<br>
+
+
+ ### Project Structure:
+
+ #### rule-engine-app/<br>
+│
+├── rule_engine_app/            # Django project folder
+│   ├── __init__.py<br>
+│   ├── asgi.py
+│   ├── settings.py<br>          # Project settings
+│   ├── urls.py                 # Project-level URLs
+│   ├── wsgi.py
+│
+<br>
+├── rule_engine/                # Django app folder for rule engine
+│   ├── migrations/             # Database migrations
+│   ├── templates/              # HTML templates for the front-end
+│   ├── static/                 # Static files (CSS, JavaScript)
+│   ├── __init__.py
+│   ├── admin.py
+│   ├── apps.py
+│   ├── models.py               # Models for rules and attributes
+│   ├── views.py                # API and UI logic
+│   ├── urls.py                 # App-level URLs
+│   ├── forms.py                # UI forms for rule entry
+│
+├── manage.py                   # Django management script
+├── requirements.txt            # Project dependencies
+└── README.md                   # Project description
+
+  
+
+ 
+ ## Bonus Features
+##### Error Handling: Handle invalid rules or missing operators/comparisons.
+##### Validation: Ensure attributes used in the rules are part of a predefined catalog.
+##### Rule Modification: Add functionality to modify existing rules by changing operators, operand values, or adding/removing sub-expressions.
+##### Advanced Conditions: Extend the system to support user-defined functions for more complex rules.    
+
+                       
+
+
+
+License<br>
+This project is licensed under the MIT License. See the LICENSE file for details.<br>
+
+Author<br>
+Harshvardhan<br>
+
+
+
+
+
+
+
+
+## Future Enhancements
+##### Add more robust error handling and validation features.
+##### Support combining a larger number of rules efficiently.
+##### Extend the front-end with a rule-building interface for non-technical users.
