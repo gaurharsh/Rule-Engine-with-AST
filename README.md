@@ -104,32 +104,31 @@ Example input:
 
 
  ### Project Structure:
-
- #### rule-engine-app/<br>
+#### rule-engine-app/<br>
 │
-├── rule_engine_app/           # Django project folder
-│   ├── __init__.py
-│   ├── asgi.py<br>
+├── rule_engine_app/           <!-- Django project folder --><br>
+│   ├── __init__.py<br>
+│   ├── asgi.py<br>        
 │   ├── settings.py<br>        
 │   ├── urls.py<br>           
 │   ├── wsgi.py<br>
-├── rule_engine/ <br>          
+│<br>
+├── rule_engine/              <!-- App-specific folder --><br>          
 │   ├── migrations/<br>             
-│   ├── templates            
-│   ├── static/             
+│   ├── templates/            <!-- HTML templates --><br>
+│   ├── static/               <!-- Static files (CSS, JS, images) --><br>
 │   ├── __init__.py<br>
-│   ├── admin.py
-│   ├── apps.py
-│   ├── models.py               # Models for rules and attributes
-│   ├── views.py               # API and UI logic
-│   ├── urls.py              # App-level URLs
-│   ├── forms.py               # UI forms for rule entry
+│   ├── admin.py              <!-- Admin configurations --><br>
+│   ├── apps.py               <!-- App configuration --><br>
+│   ├── models.py             <!-- Models for rules and attributes --><br>
+│   ├── views.py              <!-- API and UI logic --><br>
+│   ├── urls.py               <!-- App-level URLs --><br>
+│   ├── forms.py              <!-- UI forms for rule entry --><br>
+│<br>
+├── manage.py                 <!-- Django management script --><br>
+├── requirements.txt          <!-- Project dependencies --><br>
+└── README.md                 <!-- Project overview --><br>
 
-├── manage.py<br>               # Django management script
-├── requirements.txt         # Project dependencies
-└── README.md                  # Project description
-
-  
 
  
  ## Bonus Features
