@@ -144,7 +144,7 @@ Example input:
 ##### Support combining a larger number of rules efficiently.
 ##### Extend the front-end with a rule-building interface for non-technical users.                  
 
-## Screenshorts
+## Screenshort
 ![Screenshot 1](https://github.com/user-attachments/assets/f2373849-b0f0-4eba-b42c-d6b9cbcdda14)
 
 #### License
