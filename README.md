@@ -145,7 +145,7 @@ Example input:
 ##### Extend the front-end with a rule-building interface for non-technical users.                  
 
 ## Screenshorts
-![ss1](/screenshots/Screenshot 1.png")<br>
+![ss1](/screenshots/Screenshot_1.png)<br>
 
 
 
