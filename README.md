@@ -145,9 +145,7 @@ Example input:
 ##### Extend the front-end with a rule-building interface for non-technical users.                  
 
 ## Screenshorts
-![ss1](/screenshots/Screenshot_1.png)<br>
-
-
+![Screenshot 1](https://github.com/user-attachments/assets/f2373849-b0f0-4eba-b42c-d6b9cbcdda14)
 
 #### License
 This project is licensed under the MIT License. See the LICENSE file for details.<br>
